@@ -14,11 +14,12 @@ app.use(cors());
 
 app.use("/api/my/user", myUserRoute);
 
-/*
+
 app.listen(7000, ()=>{
     console.log("Server is running on localhost:7000");
-}); */
+}); 
 
+/*
 const server = app.listen(7000, () => {
     const address = server.address();
     if (address && typeof address !== "string") {
@@ -27,3 +28,4 @@ const server = app.listen(7000, () => {
         console.log("Failed to get server address");
     }
 });
+*/

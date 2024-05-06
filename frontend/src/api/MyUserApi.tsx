@@ -22,14 +22,14 @@ export const useCreateMyUser = () => {
   };
 
   const { 
-    mutateAsync: createMyUser,
+    mutateAsync: createUser,
     isLoading, 
     isError, 
     isSuccess 
   } = useMutation(createMyUserRequest);
 
   return {
-    createMyUser,
+    createUser,
     isLoading,
     isError,
     isSuccess,
